@@ -1,4 +1,3 @@
-using GameSystem.Scripts.GameSystem;
 using UnityEngine;
 
 [RequireComponent(typeof(ConfigurableJoint))]
@@ -10,12 +9,14 @@ public class PhysicalBodyPart : MonoBehaviour, IGameStartListener, IGameFixedUpd
    private ConfigurableJoint _joint;
    private Quaternion _startRotation;
 
-   void IGameStartListener.OnStartGame()
+   //Cтарт
+   void IGameStartListener.OnStartGame() 
    {
       _joint = GetComponent<ConfigurableJoint>();
       _startRotation = transform.localRotation;
    }
    
+   //Фикст апдейт
    void IGameFixedUpdateListener.OnFixedUpdate(float deltaTime)
    {
       _joint.targetRotation = Quaternion.Inverse(_target.localRotation) * _startRotation;

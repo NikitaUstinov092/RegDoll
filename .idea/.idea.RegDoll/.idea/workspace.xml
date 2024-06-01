@@ -17,10 +17,11 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/PhysicalBodyPart.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimatedSignals.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PhysicalBodyPart.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MoveComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameSystem/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameSystem/GameListeners.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameSystem/GameManagerInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MoveComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PhysicalBodyPart.cs" />
       </list>
     </option>
   </component>
@@ -30,25 +31,27 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30010834" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="7324">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="7324" />
       <option name="selectedOptions">
         <set />
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="7324">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="7324" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -63,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717236229483</updated>
-      <workItem from="1717236255352" duration="4241000" />
+      <workItem from="1717236255352" duration="6608000" />
     </task>
     <servers />
   </component>
@@ -74,5 +77,103 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1877" height="375" key="GridCell.Tab.0.bottom" timestamp="1717244005428">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1717244005428" />
+    <state width="1877" height="375" key="GridCell.Tab.0.center" timestamp="1717244005428">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1717244005428" />
+    <state width="1877" height="375" key="GridCell.Tab.0.left" timestamp="1717244005427">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1717244005427" />
+    <state width="1877" height="375" key="GridCell.Tab.0.right" timestamp="1717244005428">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1717244005428" />
+    <state width="1877" height="375" key="GridCell.Tab.1.bottom" timestamp="1717244010979">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1717244010979" />
+    <state width="1877" height="375" key="GridCell.Tab.1.center" timestamp="1717244010979">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1717244010979" />
+    <state width="1877" height="375" key="GridCell.Tab.1.left" timestamp="1717244010979">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1717244010979" />
+    <state width="1877" height="375" key="GridCell.Tab.1.right" timestamp="1717244010979">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1717244010979" />
+    <state width="1877" height="375" key="GridCell.Tab.2.bottom" timestamp="1717244005240">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.2.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1717244005240" />
+    <state width="1877" height="375" key="GridCell.Tab.2.center" timestamp="1717244005239">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.2.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1717244005239" />
+    <state width="1877" height="375" key="GridCell.Tab.2.left" timestamp="1717244005239">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.2.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1717244005239" />
+    <state width="1877" height="375" key="GridCell.Tab.2.right" timestamp="1717244005240">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.2.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1717244005240" />
+    <state width="1877" height="375" key="GridCell.Tab.3.bottom" timestamp="1717244005240">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.3.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1717244005240" />
+    <state width="1877" height="375" key="GridCell.Tab.3.center" timestamp="1717244005240">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.3.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1717244005240" />
+    <state width="1877" height="375" key="GridCell.Tab.3.left" timestamp="1717244005240">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.3.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1717244005240" />
+    <state width="1877" height="375" key="GridCell.Tab.3.right" timestamp="1717244005240">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.3.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1717244005240" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/GameSystem/GameManager.cs</url>
+          <line>11</line>
+          <properties documentPath="D:\GitHub-GitLab\RegDoll\Assets\Scripts\GameSystem\GameManager.cs" initialLine="30">
+            <startOffsets>
+              <option value="295" />
+            </startOffsets>
+            <endOffsets>
+              <option value="296" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/GameSystem/GameManager.cs</url>
+          <line>61</line>
+          <properties documentPath="D:\GitHub-GitLab\RegDoll\Assets\Scripts\GameSystem\GameManager.cs" initialLine="85">
+            <startOffsets>
+              <option value="1537" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1573" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

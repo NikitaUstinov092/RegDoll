@@ -1,7 +1,5 @@
 using UnityEngine;
 
-namespace GameSystem.Scripts.GameSystem
-{
     [RequireComponent(typeof(GameManager))]
     public class GameManagerInstaller : MonoBehaviour
     {
@@ -22,4 +20,3 @@ namespace GameSystem.Scripts.GameSystem
             }
         }
     }
-}

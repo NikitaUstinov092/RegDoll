@@ -1,4 +1,3 @@
-using GameSystem.Scripts.GameSystem;
 using UnityEngine;
 
 public class MoveComponent : MonoBehaviour, IGameFixedUpdateListener
